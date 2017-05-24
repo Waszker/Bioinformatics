@@ -1,0 +1,8 @@
+Projekt 2 – benchmark oprogramowania/algorytmów do analizy koewolucji białek
+W ekologii, koewolucja jest rozumiana jako ewolucja dwóch współegzystujących i oddziaływujących ze sobą gatunków. Jej wynikiem jest pojawianie się cech przystosowawczych u jednego gatunku, zależnie od „wymagań” drugiego (i odwrotnie).
+Od niedawna trwają badania nad zjawiskiem koewolucji białek. W sytuacji kiedy dwa białka oddziaływują ze sobą, poprzez tworzenie kompleksów, czy oddziaływanie z jednym kofaktorem, ich struktury pierwszo- drugo- i trzeciorzędowa powinny ewoluować wspólnie, tak aby dana funkcjonalność nie była utracona.
+Celem projektu jest benchmark oprogramowania/algorytmów do wykrywania koewolucji w sekwencjach białek. Na wejściu programy dostają dwa lub więcej przyrównań (alignmentów) sekwencji   aminokwasowych, przy czym w każdym alignmencie powinny znajdować się sekwencje pochodzące od tych samych ogranizmów. Jednocześnie badane przyrównania powinny dotyczyć białek o których wiadomo, że mogły podlegać procesowi koewolucji. Na podstawie alignmentów wyznaczane są drzewa filogenetyczne (lub inna metoda klastrowania), a następnie dokonywane jest porównanie uzyskanych wyników klastrowania.
+Kolejne etapy projektu:
+1)    Identyfikacja metod do koewolucji białek (przeszukanie literatury) oraz stworzenie zbioru wejściowego (1 osoba)
+2)    Instalacja istniejących metod, testowanie metod na ustalonym zbiorze wejściowym, benchmark metod, uzasanienie metody benchmarkowania (3 osoby)
+3)    Implementacja przynajmniej jednego znalezionego algorytmu, który nie jest dostępny w formie oprogramownia (3 osoby)
